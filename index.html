@@ -15,7 +15,15 @@
             <label for="shopping-list-entry">Add an item</label>
             <input type="text" name="shopping-list-entry" class="js-shopping-list-entry" placeholder="e.g., broccoli">
             <button type="submit">Add item</button>
+            <label>
+                <input type="checkbox" name="shopping-list-filter" class="shopping-list-filter">Filter out completed
+            </label>
         </form>
+        <form id="shopping-list-search">
+            <label for="search-list-entry">Search</label>
+                <input type="text" name="search-list-entry" class="search-list-entry" placeholder="eggs">
+                <button type="submit">Search items</button>
+            </form>
         <ul class="shopping-list js-shopping-list">
         </ul>
     </div>
