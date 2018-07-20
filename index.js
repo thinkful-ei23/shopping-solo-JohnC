@@ -36,7 +36,6 @@ function generateShoppingItemsString(shoppingList) {
 function renderShoppingList() {
   // render the shopping list in the DOM
   console.log('`renderShoppingList` ran');
-  const shoppingListItemsString = generateShoppingItemsString(STORE);
 
   // insert that HTML into the DOM
   $('.js-shopping-list').html(shoppingListItemsString);
